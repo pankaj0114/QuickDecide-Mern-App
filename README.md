@@ -39,50 +39,46 @@ Day.js (Time manipulation)<br/>
 - NPM (v9.x or higher)
 - MongoDB Atlas Account
 
-### 2. Environment Setup
-Create a .env file in the backend folder:
+ ## ⚙️ Installation & Setup Guide
+Follow these steps to get the project running locally on your machine.
+
+### 1. Clone the Repository<br/>
+Open your terminal and run the following command to clone the project:
+
 ```
-PORT=5000
-MONGO_URI=your_mongodb_atlas_connection_string
+git clone https://github.com/pankaj0114/QuickDecide-Mern-App.git
+cd QuickDecide-Mern-App
 ```
+
+### 2. Database Configuration (MongoDB Atlas)
+**Create a Cluster:** Sign up at MongoDB Atlas and create a free Shared Cluster.<br/>
+**Database Access:** Create a user with a username and password.<br/>
+**Network Access:** Add 0.0.0.0/0 to the IP Access List to allow connections from anywhere.<br/>
+**Connection String:** Click Connect > Drivers and copy your connection string (URI).<br/>
+
+### 3. Backend Setup
+Navigate to the backend folder and configure the environment variables:
+
+```
+# Go to backend folder
+cd backend
+
 # Install dependencies
 npm install
 
-# Create a .env file
-touch .env
-Add your MongoDB URI to .env:
-code
-Env
-MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/quickdecide
+# Create environment file
+.env
+```
+**Edit the .env file** and add your MongoDB URI:
+```
 PORT=5000
-Start the server:
-code
-Bash
-npm start
-3. Frontend Setup
-code
-Bash
-# Navigate to client directory
-cd client
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-🔌 API Documentation
-Method	Endpoint	Description
-GET	/api/polls	Fetch all polls
-POST	/api/polls	Create a new poll (Question, Options, Duration)
-PATCH	/api/polls/:id/vote	Vote for a specific option in a poll
-Sample POST Body:
-code
-JSON
-{
-  "question": "Which framework is better?",
-  "options": ["React", "Vue"],
-  "duration": 60
-}
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxx.mongodb.net/quickdecide?retryWrites=true&w=majority
+```
+**Start the backend server:**
+```
+node server.js
+```
+The console should display: Server running on port 5000 and MongoDB Connected.</br>
 📸 Screenshots
 Dashboard View	Create Poll Modal
 ![alt text](https://via.placeholder.com/400x250?text=Vibrant+Poll+Grid)
