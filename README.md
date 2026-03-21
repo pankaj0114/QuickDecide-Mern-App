@@ -1,5 +1,5 @@
 # 🚀 QuickDecide | Modern Decision Maker App
-QuickDecide is a professional, full-stack MERN application designed to help users make fast decisions through interactive polls. It features a vibrant, high-performance UI built with **React 19, Vite, and Tailwind CSS v4,** backed by a robust **Node.js/Express server and MongoDB Atlas.** \
+**QuickDecide** is a professional, full-stack MERN application designed to help users make fast decisions through interactive polls. It features a vibrant, high-performance UI built with **React 19, Vite, and Tailwind CSS v4,** backed by a robust **Node.js/Express server and MongoDB Atlas.** \
 ![alt text](https://img.shields.io/badge/license-MIT-blue.svg)<br/>
 
 ![alt text](https://img.shields.io/badge/React-19-blue?logo=react)<br/>
@@ -79,6 +79,61 @@ MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxx.mongodb.net/quickdeci
 node server.js
 ```
 The console should display: Server running on port 5000 and MongoDB Connected.</br>
+### 4. Frontend Setup
+Open a new terminal window, navigate to the client directory, and launch the Vite development server:
+
+```
+# Go to frontend folder
+cd frontend
+
+# create react app
+npx create vite@latest
+
+#install dependencies
+ npm install axios lucide-react framer-motion dayjs
+ npm install tailwindcss @tailwindcss/vite
+
+# Start the React 19 app
+npm run dev
+
+```
+The app will be available at: http://localhost:5173.</br>
+
+## 🧪 Testing the API
+You can use **Postman or Insomnia** to verify the CRUD operations.
+### 1. Create a New Poll
+   **Method:** POST</br>
+   **URL:** http://localhost:5000/api/polls</br>
+   **Body (JSON):** </br>
+ ```
+{
+  "question": "What is the best JS framework?",
+  "options": ["React", "Vue", "Angular"],
+  "duration": 60
+}
+```
+## 2. Fetch All Polls
+**Method:** GET</br>
+ **URL:** http://localhost:5000/api/polls</br>
+ 
+## 3. Cast a Vote
+**Method:** PATCH </br>
+**URL:** http://localhost:5000/api/polls/PASTE_POLL_ID_HERE/vote </br>
+ **Body (JSON):** </br>
+ ```
+{
+ "optionId": "PASTE_OPTION_ID_HERE"
+}
+```
+
+## 📚 Key Documentation Links
+**Resource** 	&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;          **Link**</br>
+**React 19 Hooks**&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;    [React.dev] Docs</br>
+**Tailwind CSS v4**&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 	[v4.tailwindcss.com]</br>
+**Vite Guide** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 	[Vitejs.dev]</br>
+**Mongoose API** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 	[Mongoosejs.com]</br>
+**Framer Motion**	 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; [Framer.com/Motion]</br>
+
 📸 Screenshots
 Dashboard View	Create Poll Modal
 ![alt text](https://via.placeholder.com/400x250?text=Vibrant+Poll+Grid)
