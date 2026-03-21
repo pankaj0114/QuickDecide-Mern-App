@@ -134,17 +134,18 @@ You can use **Postman or Insomnia** to verify the CRUD operations.
 **Mongoose API** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 	[Mongoosejs.com](https://mongoosejs.com/docs/api/mongoose.html)</br>
 **Framer Motion**	 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; [Framer.com/Motion](https://motion.dev/)</br>
 
-##📸 Screenshots
-Dashboard View	Create Poll Modal
-![alt text](https://via.placeholder.com/400x250?text=Vibrant+Poll+Grid)
-![alt text](https://via.placeholder.com/400x250?text=Colorful+Create+Form)
+## 📸 Screenshots
+### Main Page: 
+<img width="1871" height="973" alt="image" src="https://github.com/user-attachments/assets/4385b5a8-a246-420c-9ffc-5ab0e31c3c28" />
 
-🤝 Contributing
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
-Developed with ❤️ for better decisions.
+### Create Decision Poll:
+<img width="1772" height="941" alt="image" src="https://github.com/user-attachments/assets/01ce4860-1f7f-4d10-9d0e-12617400dc8f" />
+
+### Active Polls:
+<img width="1853" height="1012" alt="image" src="https://github.com/user-attachments/assets/a108aca3-9e5f-4da1-b139-4fdfb0083ff5" />
+
+### Expired Polls:
+<img width="1831" height="1005" alt="image" src="https://github.com/user-attachments/assets/e82c7fb3-a0b5-4adb-8e61-db5611dda8ba" />
+
+
+**Developed with ❤️ for better decisions.**
