@@ -39,7 +39,12 @@ Day.js (Time manipulation)<br/>
 - NPM (v9.x or higher)
 - MongoDB Atlas Account
 
-
+### 2. Environment Setup
+Create a .env file in the backend folder:
+```
+PORT=5000
+MONGO_URI=your_mongodb_atlas_connection_string
+```
 # Install dependencies
 npm install
 
