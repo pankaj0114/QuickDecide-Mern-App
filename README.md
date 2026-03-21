@@ -128,24 +128,17 @@ You can use **Postman or Insomnia** to verify the CRUD operations.
 
 ## 📚 Key Documentation Links
 **Resource** 	&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;          **Link**</br>
-**React 19 Hooks**&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;    [React.dev] Docs</br>
-**Tailwind CSS v4**&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 	[v4.tailwindcss.com]</br>
-**Vite Guide** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 	[Vitejs.dev]</br>
-**Mongoose API** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 	[Mongoosejs.com]</br>
-**Framer Motion**	 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; [Framer.com/Motion]</br>
+**React 19 Hooks**&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;    [React.dev Docs](https://react.dev/reference/react)</br>
+**Tailwind CSS v4**&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 	[v4.tailwindcss.com](https://v4.tailwindcss.com/)</br>
+**Vite Guide**   &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 	[Vitejs.dev](https://vite.dev/guide/)</br>
+**Mongoose API** &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 	[Mongoosejs.com](https://mongoosejs.com/docs/api/mongoose.html)</br>
+**Framer Motion**	 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; [Framer.com/Motion](https://motion.dev/)</br>
 
-📸 Screenshots
+##📸 Screenshots
 Dashboard View	Create Poll Modal
 ![alt text](https://via.placeholder.com/400x250?text=Vibrant+Poll+Grid)
 ![alt text](https://via.placeholder.com/400x250?text=Colorful+Create+Form)
-📖 Documentation Links Used
-The following resources were utilized in the development of this project:
-React 19: Official React Docs
-Tailwind CSS v4: Tailwind CSS v4 Alpha Documentation
-Vite: Vite Guide
-MongoDB Atlas: Atlas Documentation
-Framer Motion: Animation Library Docs
-Lucide Icons: Icon Reference
+
 🤝 Contributing
 Fork the Project
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
